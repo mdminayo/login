@@ -1,0 +1,53 @@
+body{
+	font: 15px Arial, Helvetica;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+/* ESTILOS ENCABEZADO */
+header{
+	background-color: #24282b;
+	color: #fff;
+	padding: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #1293d4;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #marca{
+	float: left;
+}
+header #marca h1{
+	margin: 0;
+
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .resaltado, header .actual a{
+   color: #1293d4;
+   font-weight: bold;
+}
+header a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
+/*FOOTER PIE DE PAGINA*/
+footer{
+   padding: 20px;
+   margin-top: 20px;
+   color: #fff;
+   background-color: #1293d4;
+   text-align: center;
+}

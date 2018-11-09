@@ -1,0 +1,255 @@
+body{
+	font: 15px Arial, Helvetica;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+/* ESTILOS GLOBALES */
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+.boton1{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+	float: right ;
+	float: top;
+}
+/* ESTILOS ENCABEZADO */
+header{
+	background-color: #24282b;
+	color: #fff;
+	padding: 30px;
+	min-height: 6px;
+	border-bottom: 5px solid #1293d4;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+header li{
+	float: left;;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #marca{
+	float: left;
+}
+header #marca h1{
+	margin: 0;
+
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .resaltado, header .actual a{
+   color: #1293d4;
+   font-weight: bold;
+}
+header a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
+/*CABEZERA CON IMAGENES*/
+#cabecera{
+	min-height: 300px;
+	background: url('../img/cabecera.jpg') no-repeat 0 -300px;
+	text-align: center;
+	color: #fff;
+	margin: auto;
+}
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+#cabecera p{
+	font-size: 20px;
+}
+/*FORMULARIO DE SUSCRIBTE*/
+#suscribete{
+	padding: 15px;
+	color: #fff;
+	background: #24282b;
+}
+#suscribete h1{
+	float: left;
+}
+#suscribete form{
+	float: right;
+	margin-top: 15px;
+}
+#suscribete input[type="emial"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+/*ESTILO PARA LAS CAJAS EN DONDE SE UBICAN LAS IMAGENES */
+#cajas{
+	margin-top: 20px;
+}
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+#cajas .caja img{
+	width: 90px;
+}
+/*FOOTER PIE DE PAGINA*/
+footer{
+   padding: 20px;
+   margin-top: 20px;
+   color: #fff;
+   background-color: #1293d4;
+   text-align: center;
+}
+/*LATERAL*/
+aside#lateral{
+	float: right;
+	width: 100%;
+	margin-top: 10px;
+}
+.oscuro{
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*COLUMNA PRINCIPAL*/
+article#columnaprincipal{
+   float: left;
+   width: 55%;
+}
+/*LO ULTIMO*/
+ul#loultimo li{
+  list-style: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  background-color: #e6e6e6;
+}
+/*FORMULARIO*/
+input, textarea{
+	width: 50%;
+	height: 15px;
+	border: 1px solid gray;
+	margin-bottom: 5px;
+  
+}
+textarea{
+	height: 120px;
+	height: 60px
+
+}
+input [type="submit"] {
+	background-color: #e8491d;
+	color: #fff;
+	padding-top: 50px;
+}
+/*CONVERTIR A RESPONSIVE*/
+@media(max-width: 768px){
+	header#marca,
+	header nav,
+	header nav li,
+	#suscribete h1,
+	#suscribete form,
+	#cajas .caja,
+    article#columnaprincipal,
+    aside#lateral{
+    	float: none;
+    	text-align: center;
+    	width: 100%;
+    }
+
+    header{
+    	padding-bottom: 20px;
+    }
+
+    #suscribete h1{
+    	margin-top: 40px;
+    }
+
+    #suscribete button{
+    	display: block;
+    	width: 100%;
+    }
+
+    #suscribete form input[type="email"]{
+    	width: 100%;
+    	margin-bottom: 5px;
+
+    }
+
+    input, textarea{
+    	width: 98%;
+    }
+    /* lOGIN  */
+
+ }
+ #submenu{
+ 	background-color: #24282b;
+	color: #fff;
+	padding: 30px;
+	min-height: 70px;
+ }
+
+
+ #contenido{
+     background-color: #f7f7f8;
+ }
+ 
+ .tamanoMultimedia{
+     width: 100%;
+     height: 200px;
+     ;
+ }
+ 
+ 
+ 
+ 
+ /****************************  MODIFICACION DE LA VENTANA MODAL       **********************************/
+ 
+ #modalSelectMultimedia{
+     position: fixed;
+     top: 0;
+     background: rgba(0,0,0,.7);
+     width: 100%;
+     display: none;
+     height: 100%
+ }
+ 
+ #containerSectM{
+    margin: 30px auto;
+    background: white;
+    border-radius: 5px;
+ }
+ 
+ #options{
+    width: 640px;
+    height: 300px;
+    margin: auto; 
+   
+ }
+ 
+ .card{
+     float: left;
+     margin: 10px;
+ }

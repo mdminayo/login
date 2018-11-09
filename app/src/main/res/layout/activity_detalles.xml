@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Activities.Detalles">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="115dp"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/videos"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="126dp"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/calendario"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="113dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/comentario"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="122dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/fotos"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="123dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/descripcion"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="119dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/asistencia"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="264dp"
+        android:layout_height="71dp"
+        app:srcCompat="@drawable/mascaras"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+</android.support.constraint.ConstraintLayout>
